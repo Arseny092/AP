@@ -36,8 +36,8 @@ class PortfGallery extends React.Component {
     render() {
         return (
             <div>
-            <Gallery photos={PHOTO_SET} onClick={this.openLightbox}/>
-                <Lightbox images={PHOTO_SET}
+            <Gallery photos={this.props.list} onClick={this.openLightbox}/>
+                <Lightbox images={this.props.list}
                           onClose={this.closeLightbox}
                           onClickPrev={this.gotoPrevious}
                           onClickNext={this.gotoNext}
@@ -48,33 +48,5 @@ class PortfGallery extends React.Component {
         );
     }
 }
-const PHOTO_SET = [
-    {
-        src: '/img/desktopret.jpg',
-        width: 1920,
-        height: 2560
-    },
-    {
-        src: '/img/horiz.jpg',
-        width: 1766,
-        height: 1179
-    },
-    {
-        src: '/img/desktopret.jpg',
-        width: 1920,
-        height: 2560
-    },
-    {
-        src: '/img/face1.jpg',
-        width: 1198,
-        height: 1712
-    },
-    {
-        src: '/img/horiz2.jpg',
-        width: 1684,
-        height: 1179
-    }
-];
-
 
 export default PortfGallery;

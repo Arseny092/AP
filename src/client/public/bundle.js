@@ -25429,7 +25429,7 @@ var Portf = function (_React$Component) {
                 'div',
                 null,
                 _react2.default.createElement(_header2.default, null),
-                _react2.default.createElement(_portfgallery2.default, null),
+                _react2.default.createElement(_portfgallery2.default, { list: PHOTO_SET }),
                 _react2.default.createElement(_footer2.default, null)
             );
         }
@@ -25437,6 +25437,28 @@ var Portf = function (_React$Component) {
 
     return Portf;
 }(_react2.default.Component);
+
+var PHOTO_SET = [{
+    src: '/img/desktopret.jpg',
+    width: 1920,
+    height: 2560
+}, {
+    src: '/img/horiz.jpg',
+    width: 1766,
+    height: 1179
+}, {
+    src: '/img/desktopret.jpg',
+    width: 1920,
+    height: 2560
+}, {
+    src: '/img/face1.jpg',
+    width: 1198,
+    height: 1712
+}, {
+    src: '/img/horiz2.jpg',
+    width: 1684,
+    height: 1179
+}];
 
 exports.default = Portf;
 
@@ -26080,8 +26102,8 @@ var PortfGallery = function (_React$Component) {
             return _react2.default.createElement(
                 'div',
                 null,
-                _react2.default.createElement(_reactPhotoGallery2.default, { photos: PHOTO_SET, onClick: this.openLightbox }),
-                _react2.default.createElement(_reactImages2.default, { images: PHOTO_SET,
+                _react2.default.createElement(_reactPhotoGallery2.default, { photos: this.props.list, onClick: this.openLightbox }),
+                _react2.default.createElement(_reactImages2.default, { images: this.props.list,
                     onClose: this.closeLightbox,
                     onClickPrev: this.gotoPrevious,
                     onClickNext: this.gotoNext,
@@ -26089,27 +26111,6 @@ var PortfGallery = function (_React$Component) {
                     isOpen: this.state.lightboxIsOpen
                 })
             );
-            var PHOTO_SET = [{
-                src: '/img/desktopret.jpg',
-                width: 1920,
-                height: 2560
-            }, {
-                src: '/img/horiz.jpg',
-                width: 1766,
-                height: 1179
-            }, {
-                src: '/img/desktopret.jpg',
-                width: 1920,
-                height: 2560
-            }, {
-                src: '/img/face1.jpg',
-                width: 1198,
-                height: 1712
-            }, {
-                src: '/img/horiz2.jpg',
-                width: 1684,
-                height: 1179
-            }];
         }
     }]);
 
