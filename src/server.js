@@ -16,7 +16,7 @@ app.use(express.static(path.join(process.cwd(), './client/public'), {
     maxAge: cacheTime
 }));
 
-app.get('*', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'src/client/public/index.html'));
 });
 
