@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "node src/server.js",
+    "test": "webpack-dev-server"
   },
   "author": "Arseny92",
   "license": "ISC",
