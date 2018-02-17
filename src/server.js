@@ -12,13 +12,13 @@ app.use(compress({
     threshold: 512
 }));
 
-app.use(express.static(path.join(process.cwd(), './client/public'), {
+app.use(express.static(path.join(__dirname, '/client/public'), {
     maxAge: cacheTime
 }));
 
-app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'src/client/public/index.html'));
-});
+//app.get('/', (req, res) => {
+  //  res.sendFile(path.resolve(__dirname, 'src/client/public/index.html'));
+//});
 
 app.disable('x-powered-by');
 
