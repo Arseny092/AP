@@ -1,0 +1,21 @@
+@tablet-widths: ~"(min-width: 620px)";
+@desktop-widths: ~"(min-width: 960px)";
+
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+.container() {
+  width: 320px;
+
+  @media @tablet-widths {
+    width: 620px;
+  }
+
+  @media @desktop-widths {
+    width: 960px;
+  }
+}
