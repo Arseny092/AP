@@ -102,7 +102,7 @@
   width: 320px;
   margin: 0 auto;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 150px;
 }
 @media (min-width: 620px) {
@@ -120,7 +120,7 @@
 }
 .about-us-portf {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .about-us-btn {
   display: block;
@@ -142,8 +142,4 @@
 }
 .about-us-btn a:hover {
   border-bottom: 1px solid black;
-}
-.price-content p {
-  margin: 0 auto;
-  text-align: center;
 }
