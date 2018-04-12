@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0339eb6d-3404-49b2-858f-502be2f4fb6c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/app/price.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/app/pricecontent.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/less/price.less" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/aboutcontent.jsx" afterPath="$PROJECT_DIR$/src/client/app/aboutcontent.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/app.jsx" afterPath="$PROJECT_DIR$/src/client/app/app.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/gallery.jsx" afterPath="$PROJECT_DIR$/src/client/app/gallery.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/header.jsx" afterPath="$PROJECT_DIR$/src/client/app/header.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/portf.jsx" afterPath="$PROJECT_DIR$/src/client/app/portf.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/less/about.less" afterPath="$PROJECT_DIR$/src/client/less/about.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/public/bundle.js" afterPath="$PROJECT_DIR$/src/client/public/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/public/styles.css" afterPath="$PROJECT_DIR$/src/client/public/styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -199,8 +189,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="667" />
-    <option name="y" value="96" />
+    <option name="x" value="238" />
+    <option name="y" value="204" />
     <option name="width" value="904" />
     <option name="height" value="776" />
   </component>
@@ -318,18 +308,17 @@
       <workItem from="1522858461272" duration="6215000" />
       <workItem from="1523287289935" duration="2349000" />
       <workItem from="1523471188258" duration="4748000" />
-      <workItem from="1523538380624" duration="3746000" />
+      <workItem from="1523538380624" duration="3998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94387000" />
+    <option name="totallyTimeSpent" value="94639000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="667" y="96" width="904" height="776" extended-state="0" />
-    <editor active="true" />
+    <frame x="238" y="204" width="904" height="776" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2721239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2721239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
