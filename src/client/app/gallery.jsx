@@ -13,7 +13,16 @@ class GalleryMain extends React.Component {
                             media="(min-width: 640px)"
                             srcSet="/img/horiz2.jpg"
                         />
-                        <img src="/img/mobileret.jpg"></img>
+                        <img src="/img/tablet7.jpg"></img>
+                    </picture>
+                </div>
+                <div>
+                    <picture>
+                        <source
+                            media="(min-width: 640px)"
+                            srcSet="/img/horiz.jpg"
+                        />
+                        <img src="/img/tablet9.jpg"></img>
                     </picture>
                 </div>
             </Carousel>

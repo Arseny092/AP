@@ -53,21 +53,33 @@ const PHOTO_SET = [
         height: 4
     },
     {
-        src: '/img/face1.jpg',
-        width: 1198,
-        height: 1712
-    },
-    {
-        src: '/img/horiz2.jpg',
-        width: 1684,
-        height: 1179
-    },
-    {
-        src: '/img/desktop1.jpg',
+        src: '/img/desktop11.jpg',
         srcSet: [
-            '/img/mobile1.jpg 320w',
-            '/img/tablet1.jpg 640w',
-            '/img/desktop1.jpg 960w'
+            '/img/mobile11.jpg 320w',
+            '/img/tablet11.jpg 640w',
+            '/img/desktop11.jpg 960w'
+        ],
+        sizes:['(min-width: 320px) 320px, (min-width: 640px) 640px, 960px'],
+        width: 3,
+        height: 4
+    },
+    {
+        src: '/img/desktop12.jpg',
+        srcSet: [
+            '/img/mobile12.jpg 320w',
+            '/img/tablet12.jpg 640w',
+            '/img/desktop12.jpg 960w'
+        ],
+        sizes:['(min-width: 320px) 320px, (min-width: 640px) 640px, 960px'],
+        width: 3,
+        height: 4
+    },
+    {
+        src: '/img/desktop14.jpg',
+        srcSet: [
+            '/img/mobile14.jpg 320w',
+            '/img/tablet14.jpg 640w',
+            '/img/desktop14.jpg 960w'
         ],
         sizes:['(min-width: 320px) 320px, (min-width: 640px) 640px, 960px'],
         width: 3,
@@ -101,6 +113,39 @@ const PHOTO_SET = [
             '/img/mobile9.jpg 320w',
             '/img/tablet9.jpg 640w',
             '/img/desktop9.jpg 960w'
+        ],
+        sizes:['(min-width: 320px) 320px, (min-width: 640px) 640px, 960px'],
+        width: 3,
+        height: 4
+    },
+    {
+        src: '/img/desktop2.jpg',
+        srcSet: [
+            '/img/mobile2.jpg 320w',
+            '/img/tablet2.jpg 640w',
+            '/img/desktop2.jpg 960w'
+        ],
+        sizes:['(min-width: 320px) 320px, (min-width: 640px) 640px, 960px'],
+        width: 3,
+        height: 2
+    },
+    {
+        src: '/img/desktop13.jpg',
+        srcSet: [
+            '/img/mobile13.jpg 320w',
+            '/img/tablet13.jpg 640w',
+            '/img/desktop13.jpg 960w'
+        ],
+        sizes:['(min-width: 320px) 320px, (min-width: 640px) 640px, 960px'],
+        width: 3,
+        height: 4
+    },
+    {
+        src: '/img/desktop15.jpg',
+        srcSet: [
+            '/img/mobile15.jpg 320w',
+            '/img/tablet15.jpg 640w',
+            '/img/desktop15.jpg 960w'
         ],
         sizes:['(min-width: 320px) 320px, (min-width: 640px) 640px, 960px'],
         width: 3,
