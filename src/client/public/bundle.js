@@ -25488,8 +25488,8 @@ var PHOTO_SET = [{
     width: 3,
     height: 4
 }, {
-    src: '/img/desktop8.jpg',
-    srcSet: ['/img/mobile8.jpg 320w', '/img/tablet8.jpg 640w', '/img/desktop8.jpg 960w'],
+    src: '/img/desktop10.jpg',
+    srcSet: ['/img/mobile10.jpg 320w', '/img/tablet10.jpg 640w', '/img/desktop10.jpg 960w'],
     sizes: ['(min-width: 320px) 320px, (min-width: 640px) 640px, 960px'],
     width: 3,
     height: 4
