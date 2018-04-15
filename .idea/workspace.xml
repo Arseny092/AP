@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0339eb6d-3404-49b2-858f-502be2f4fb6c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/public/loader.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/bin/extract-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/bin/uglifyjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/ast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/compress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/mozilla-ast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/output.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/propmangle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/scope.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/sourcemap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/transform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/completion.sh.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/lib/completion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/lib/parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/lib/usage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/lib/validation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/domprops.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/exports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/props.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/lib/post_install.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/.bin/uglifyjs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/README.md" afterPath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/dist/index.js" afterPath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/dist/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/package.json" afterPath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/app.jsx" afterPath="$PROJECT_DIR$/src/client/app/app.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/footer.jsx" afterPath="$PROJECT_DIR$/src/client/app/footer.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/app/gallery.jsx" afterPath="$PROJECT_DIR$/src/client/app/gallery.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/public/bundle.js" afterPath="$PROJECT_DIR$/src/client/public/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/public/index.html" afterPath="$PROJECT_DIR$/src/client/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gallery.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/app/gallery.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -100,6 +57,16 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,16 +96,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="627">
               <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/public/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1383">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -204,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/client/app/price.jsx" />
         <option value="$PROJECT_DIR$/src/client/app/pricecontent.jsx" />
         <option value="$PROJECT_DIR$/src/client/less/price.less" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/src/client/app/header.jsx" />
         <option value="$PROJECT_DIR$/src/client/less/about.less" />
         <option value="$PROJECT_DIR$/src/client/app/aboutcontent.jsx" />
@@ -217,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/client/app/footer.jsx" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/client/app/gallery.jsx" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -360,12 +317,12 @@
       <workItem from="1523471188258" duration="4748000" />
       <workItem from="1523538380624" duration="5267000" />
       <workItem from="1523792795696" duration="1833000" />
-      <workItem from="1523818200168" duration="7206000" />
+      <workItem from="1523818200168" duration="7542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104947000" />
+    <option name="totallyTimeSpent" value="105283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="806" y="25" width="873" height="776" extended-state="0" />
@@ -600,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/app/price.jsx" />
     <entry file="file://$PROJECT_DIR$/src/client/app/pricecontent.jsx" />
     <entry file="file://$PROJECT_DIR$/src/client/app/about.jsx">
@@ -801,6 +751,14 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
