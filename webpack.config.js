@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 var BUILD_DIR = path.resolve(__dirname, 'src/client/public');
 var APP_DIR = path.resolve(__dirname, 'src/client/app');
@@ -57,13 +58,18 @@ var config = {
 
     devServer: {
         contentBase: BUILD_DIR,
+        historyApiFallback: true,
         //hot: true
     },
 
     plugins: [
         new ExtractTextPlugin('styles.css', {allChunks: true}),
-        //new webpack.NamedModulesPlugin(),
-        //new webpack.HotModuleReplacementPlugin()
+
+        new UglifyJsPlugin({
+            test: /\.js($|\?)/i,
+            cache: true,
+        }),
+
     ],
 
     };
