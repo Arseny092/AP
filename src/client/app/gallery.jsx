@@ -6,7 +6,12 @@ import '../less/main-slider.less';
 class GalleryMain extends React.Component {
     render() {
         return (
-            <Carousel showThumbs={false} infiniteLoop={true} emulateTouch={true} showStatus={false}>
+            <Carousel infiniteLoop={true}
+                      showThumbs={false}
+                      emulateTouch={true}
+                      showStatus={false}
+                      useKeyboardArrows={true}
+                      swipeable={true}>
                 <div className="main-slider__el">
                     <picture>
                         <source
